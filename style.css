@@ -404,7 +404,7 @@ button[type="submit"] {
      }
      .card4{
         position: absolute;
-        top: 520%;
+        top: 505%;
         left: -1%;
         width: 50%;
        
@@ -432,11 +432,11 @@ button[type="submit"] {
      }
      #section4 {
         position: relative;
-        top: 180%;
+        top: 170%;
      }
      footer a{
         position: relative;
-        top: 5600%;
+        top: 5400%;
      }
   }
 
