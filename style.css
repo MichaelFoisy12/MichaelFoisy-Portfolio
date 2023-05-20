@@ -65,26 +65,7 @@ html{
 }
 .navbar ul li:hover::after{  /*list changes*/
     width: 100%;
-/*}
-.content {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform:translateY(-50%);
-    text-align: center;
-    color: #fff;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-}*/
-/*.content h1{
-    font-size: 70px;
-    margin-top: 80px;
-}*/
-/*.content p{
-    margin: 20px auto;
-    font-weight: 100;
-    line-height: 25px;
-*/}
+}
 
 section{
     display: flex;
@@ -404,7 +385,7 @@ button[type="submit"] {
      }
      .card4{
         position: absolute;
-        top: 505%;
+        top: 515%;
         left: -1%;
         width: 50%;
        
