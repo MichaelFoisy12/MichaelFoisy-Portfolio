@@ -4,144 +4,195 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3a76c17a28.js" crossorigin="anonymous"></script>
     <title>Michael Foisy | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="update.css">
 </head>
 <body>
   
-    <div class="banner" style="overflow:hidden">
-        <div class="container"> 
-        <nav class="navbar">
-            <img scr="logo.png" class="logo">
-            <ul>
-                <li><a href="#section1">Home</a></li>
-                <li><a href="#section2">Projects</a></a></li>
-                <li><a href="#section3">Skills</a></li>
-                <li><a href="#section4">Contact</a></li>
-            </ul>
-        </nav>
-        <section id="section1">
-          <h1>My name is Michael,<br> </h1>
-        <p> I am a creative developer who enjoys<br> building Java applications and websites.</p>
-            <p></p>
-            <div>
+    <header>
+        <a href="updatedVersion.html" class="brand">Portfolio</a>
+        <div class="menuIcon">
+            <span class="icon icon-bars"></span>
+            <span class="icon icon-bars overlay"></span>
+          </div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="#home">Home</a>
+                <a href="#">Projects</a> 
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
             </div>
-        </section>
-        <section id="section2">
-            <h1>Projects</h1>
-            
-            <div class="row">
-                <div class="column">
-                  <div class="card1">
-                    <h3>Website</h3>
-                    <br>
-                    <img class="card-image-top" src="smarthealthypetslogo1.webp">
-                    <p>HTML/CSS - Smarthealthypets</p>
-                    <br>
-                    <a target="_blank" href="https://smarthealthypets.com">Visit</a>
-                  </div>
-                </div>
-              
-                <div class="row">
-                <div class="column">
-                  <div class="card2">
-                    <h3>Flappybird Clone</h3>
-                    <br>
-                    <img class="card-image-top" src="Flappyfishsnippet200x200.png">
-                    <img class="card-image-top2-hover" src="Flappyfishsnippet2.PNG">
-                    <p>Java - Flappybird clone(FlappyFish)</p>
-                    <br>
-                   <!-- <a href="#" class="btn btn-success">Link</a> -->
-                  </div>
-                </div>
-                </div>
-                
-                
-                <div class="column">
-                  <div class="card3">
-                    <h3>Spuds Adventure</h3>
-                    <br>
-                    <img class="card-image-top" src="SpudsAdventuresnippet200X200.png">
-                    <img class="card-image-top-hover" src="SpudsAdventurelvl1snipper.PNG">
-                    <img class="card-image-top2-hover" src="SpudsAdventurelvl2snippet.PNG"> 
-                    <img class="card-image-top3-hover" src="SpudsAdventurelvl3snippet.PNG">                   
-                    <p>Java - Spuds Adventure is a 2D adventure game</p>
-                    <br>
-                  <!--  <a href="#" class="btn btn-success">Link</a> -->
-                  </div>
-                </div>
-                
-                <div class="column">
-                  <div class="card4">
-                    <h3>Blackjack Clone</h3>
-                    <br>
-                    <img class="card-image-top" src="blackjacksnippet200x200.png">
-                    <img class="card-image-top-hover" src="blackjacksnippet2.PNG">
-                    <img class="card-image-top2-hover" src="blackjacksnippet3.PNG">
-                    <p>Java - Blackjack clone</p>
-                    <br>
-                 <!--   <a href="#" class="btn btn-success">Link</a> -->
-                  </div>
-                </div>
-              </div>
-  
-        </section >
-        
-        <section id="section3">
-                <h1>Skills</h1>
-              <p> •Training&nbsp;&nbsp;
-                  •	Continuous improvement&nbsp;&nbsp;
-                  •	Communication skills&nbsp;&nbsp;
-                  <br>
-                  •	Java&nbsp;&nbsp;
-                  •	SDLC&nbsp;&nbsp;
-                  •	Problem solving&nbsp;&nbsp;
-                  •	MySQL Database&nbsp;&nbsp;
-                  <br>
-                  •	HTML/CSS&nbsp;  &nbsp;     	
-                  •	Typing&nbsp;&nbsp;
-                  •	Computer Science&nbsp;&nbsp;
-                  •	OOP&nbsp;&nbsp;&nbsp;&nbsp;
-                  <br>
-                  •	Eclipse&nbsp;&nbsp;
-                  •	Adaptable&nbsp;&nbsp;
-                  •	Critical thinking&nbsp;&nbsp;
-                  •	Java Swing&nbsp;&nbsp;
-                  <br>
-                  •	JDBC&nbsp;&nbsp;
-                  •	UI&nbsp;&nbsp;
-              </p>
-        </section>
-         <section id="section4">
-                <h1>CONTACT</h1>
-            
-                <form
-                action="mailto:michaelwfoisy@gmail.com"
-                method="POST"
-                enctype="multipart/form-data"
-                name="EmailForm">
-                    Name:<br>
-                    <input type="text" size="19" name="Contact-name" placeholder="Your Name"><br><br>
-                    Email:<br>
-                    <input type="email" name="Contact-Email" placeholder="Your Email"><br><br>
-                    Message:<br>
-                    <textarea name="Contact-Message"
-                rows="6" cols="20">
-                    </textarea><br><br>
-                    <button type="submit"
-                value="Submit">Submit</button>    
-            </form>
-            
-         </form>
-         </section>
-         
-         <footer>  
-            <a href="#section1"> Back To Top</a>
-        
-        </footer>
-         
         </div>
+    </header>
+    <section class="home" id="home">
+        <video class="video-slide" src="" autoplay muted loop></video>
+        <video class="video-slide" src="Shp.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="FlappyFish.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="Blackjack.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="SpudsAdventure.mp4" autoplay muted loop></video> 
+        <div class="content active">
+            <h1>My name<br>is Michael,<span></span></h1>
+            <p>I have an assoicates degree in Computer Science, I am a creative developer that enjoys bring my ideas to life.<br></p>
+            <!-- <a href="#">Read More</a> -->
         </div>
-    </div>  
+        <div class="content">
+            <h1>Smart<br>healthy<br>pets<span></span></h1>
+            <p>Smarthealtyhpets.com is an informative website for all pets owners!</p>
+            <a target="_blank" href="https://Smarthealthypets.com">Visit</a>
+        </div>
+        <div class="content">
+            <h1>Flappy Fish<br><span> </span></h1>
+            <p>Flappy Fish is a Flappy Bird clone that I created using Java. </p>
+            <!-- <a href="#">Read More</a> -->
+        </div>
+        <div class="content">
+            <h1>Blackjack<br><span></span></h1>
+            <p>A blackjack clone that I created using Java.</p>
+           <!--  <a href="#">Read More</a> -->
+        </div>
+        <div class="content">
+            <h1>Spuds<br><span>Adventure</span></h1>
+            <p>Spuds Adventure is a 2d game where you play as a potato named spud. I created Spuds Adventure with Java.</p>
+            <!-- <a href="#">Read More</a> -->
+        </div>
+        <div class="media-icons">
+           <!--  <a href="#"><i class="fa-brands fa-github"></i></a> -->
+            <!-- <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a> -->
+        </div>
+        <div class="slider-navigation">
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+        <h1>Skills</h1>
+               <div><i class="fa-brands fa-java fa-5x"></i></div> 
+               <div><i class="fa-brands fa-html5 fa-5x"></i></div> 
+               <div><i class="fa-brands fa-css3 fa-5x"></i></div> 
+               <div><i class="fa-brands fa-js fa-5x"></i></div> 
+               <div><i class="fa-solid fa-database fa-5x"></i></div> 
+               <div><i class="fa-brands fa-php fa-5x"></i></div> 
+                
+        </div>
+        <div class="container-more">
+                <!-- <i class="fa-solid fa-caret-down fa-3x"></i> -->
+                <div><li>Computer Science</li></div> 
+                <div><li>Problem Solving</li></div> 
+                <div><li>Communication</li></div> 
+                <div><li>Software Development</li></div> 
+                <div><li>Adaptable</li></div> 
+                 <div><li>Visual Studio Code</li></div> 
+                 <div><li>Eclipse IDE</li></div> 
+                 <div><li>OOP</li></div> 
+                 <div><li>UI</li></div> 
+                 <div><li>Typing</li></div> 
+               
+
+
+
+               </div>
+        </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1>Contact</h1>    
+        <form
+        action="mailto:michaelwfoisy@gmail.com"
+        method="POST"
+        enctype="multipart/form-data"
+        name="EmailForm">
+            Name:<br>
+            <input type="text" size="19" name="Contact-name" placeholder="Your Name"><br><br>
+            Email:<br>
+            <input type="email" name="Contact-Email" placeholder="Your Email"><br><br>
+            Message:<br>
+            <textarea name="Contact-Message"
+        rows="6" cols="20">
+            </textarea><br><br>
+            <button type="submit"
+        value="Submit">Submit</button>    
+    </form>
+    </section>
+    
+
+    <script type="text/javascript">
+    // Javascript of responsive navigation menu
+    //Responsive Toggle Navigation =============================================
+    let menuIcon = document.querySelector('.menuIcon');
+    let nav = document.querySelector('.overlay-menu');
+    const navigation = document.querySelector(".navigation");
+   // const navItems = document.querySelector(".navigation-items");
+    
+    menuIcon.addEventListener('click', () => {
+        menuIcon.classList.toggle("active");
+        navigation.classList.toggle("active");
+      if (nav.style.transform != 'translateX(0%)') {
+          nav.style.transform = 'translateX(0%)';
+          nav.style.transition = 'transform 0.2s ease-out';
+      } else { 
+          nav.style.transform = 'translateX(-100%)';
+          nav.style.transition = 'transform 0.2s ease-out';
+      }
+    });
+    
+    
+    // Toggle Menu Icon ========================================
+    let toggleIcon = document.querySelector('.menuIcon');
+    
+    toggleIcon.addEventListener('click', () => {
+        
+      if (toggleIcon.className != 'menuIcon toggle') {
+          toggleIcon.className += ' toggle';
+      } else {
+          toggleIcon.className = 'menuIcon';
+      }
+    });
+
+    // Javascript for video slider navigation
+    const btns = document.querySelectorAll(".nav-btn");
+    const slides = document.querySelectorAll(".video-slide");
+    const contents = document.querySelectorAll(".content");
+    
+    var sliderNav = function(manual){
+        btns.forEach((btn) => {
+            btn.classList.remove("active");
+        });
+
+        slides.forEach((slide) => {
+            slide.classList.remove("active");
+        });
+
+        contents.forEach((content) => {
+            content.classList.remove("active");
+        });
+
+      btns[manual].classList.add("active");
+      slides[manual].classList.add("active");
+      contents[manual].classList.add("active");
+    }
+
+    btns.forEach((btn, i) =>{
+        btn.addEventListener("click", () =>{
+            sliderNav(i);
+        });
+    });
+
+    </script>
+<!-- <footer>  
+    <a href="#home"> Back To Top</a>
+
+</footer> -->
 </body>
 </html>
