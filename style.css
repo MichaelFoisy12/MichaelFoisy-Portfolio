@@ -524,7 +524,7 @@ section{
         width: 100%;
       }
        .contact button[type="submit"]{
-        margin-left: 99px;
+        margin: auto;
       }
     }
    
